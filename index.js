@@ -288,7 +288,7 @@ Use addArtist to do the following:
 5. Add the newly created object to the copied array, then return the copied array
 🌟 EXAMPLE: Invoking addArtist(artists, 'John Doe', '1988-2022', 'Full Stack Development', 'African American', 'I have a background in customer service at Big Retail Chain. I am attending BloomTech to become a Frontend Developer.') should return the artists array with the above object added to the end of the array. */
 
-function addArtist(array, string, string, string, string, string) {
+function addArtist(array, string, string, string, string, string){
   array.push({name: string, 
   years: string,
   genre: string, 
